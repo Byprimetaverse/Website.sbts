@@ -1,0 +1,61 @@
+.slider h3,
+.slider h5 {
+  text-shadow: 5px 5px 10px rgba(0, 0, 0, 0.7);
+}
+
+.produk h3,
+.brand h3,
+.berita h3,
+.kontak h3,
+.Tentang h3,
+.barang h3,
+.pelayanan h3 {
+  text-shadow: 5px 5px 10px rgba(0, 0, 0, 0.7);
+}
+
+.parallax-container {
+  height: 70%;
+}
+
+.parallax img {
+  filter: grayscale();
+}
+
+.produk img {
+  max-width: 50%;
+  filter: drop-shadow(2px 2px 2px rgba(0, 0, 0, 1));
+}
+
+section,
+footer,
+.Tentang {
+  padding: 20px 0;
+}
+
+.kontak a {
+  color: black;
+}
+
+/* Menghilangkan garis bawah pada link */
+.berita {
+  text-decoration: none;
+  display: block;
+  color: black;
+  transition: transform 0.2s ease-in-out;
+}
+
+/* Efek hover */
+.berita a:hover {
+  transform: scale(1.05); /* Efek membesar saat hover */
+}
+
+/* Jika ingin efek warna berubah */
+.berita:hover a {
+  color: indigo; /* Warna biru saat hover */
+}
+
+footer i {
+  color: black;
+  height: 20px;
+  width: 20px;
+}
